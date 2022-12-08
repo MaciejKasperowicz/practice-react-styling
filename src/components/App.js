@@ -20,6 +20,46 @@ const theme = {
             background-color: #e2e3e5;
             border-color: #d3d6d8;
         `
+    },
+    button: {
+        variant: {
+            primary: css`
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        `,
+            secondary: css`
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d;
+        `
+        },
+        size: {
+            lg: css`
+                padding: 0.5rem 1rem;
+                font-size: 1.25rem;
+                line-height: 1.5;
+                border-radius: 0.5rem;
+            `,
+            sm: css`
+                padding: 0.25rem 0.5rem;
+                font-size: 0.875rem;
+                line-height: 1.5;
+                border-radius: 0.25rem;
+            `
+        },
+        activeState: {
+            activePrimary: css`
+                background-color: #0a58ca;
+            `,
+            activeSecondary: css`
+                background-color: #565e64;
+            `
+        },
+        disabledState: css`
+            opacity: 0.65;
+        `
+
     }
 
 }
